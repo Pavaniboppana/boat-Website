@@ -1,0 +1,140 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.ox{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 30px 30px;
+}
+
+.oxCard{
+width: 16rem;
+height:25rem;
+position: relative;
+}
+.oxCardBody{
+    width: 16rem;
+height:15rem;
+}
+.oxImg{
+    width: 16rem;
+    height:10rem;
+}
+.oxTitle{
+    font-size: 20px;
+    font-weight: 600;
+}
+.oxTitle1{
+    font-size: 15px;
+    font-weight: 500;
+}
+.oxText{
+    font-size: 16px;
+    font-weight: 600;
+    color: blue;
+}
+span{
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+.Button1{
+    font-size: 13px;
+    font-weight: 600;
+    width: 150px;
+    height:40px;
+color:white;
+position: absolute;
+top: calc(33% - 5px); 
+left: calc(50% - 95px); 
+}
+.Button2{
+    width: 140px;
+    height: 40px;                     
+    border-radius: 5px;
+    font-size: 15px; 
+    font-weight: 700;
+    color: white;
+    position: absolute;
+    top: 91%; 
+    left: 55%;
+    transform: translate(-91%, -55%);
+    background-color: black;
+    border: none;
+}
+
+
+
+.footer1{
+    display: flex;
+    justify-content: space-evenly;
+flex-wrap: wrap;
+    background-color:#E6E4EB;
+}
+.list{
+margin-right: 50px;
+}
+.list ul p{
+    font-size: 20px;
+    margin-top: 10px;
+    color:black;
+    font-weight:bold;
+    margin-right:-30px;
+}
+.list ul h6{
+    font-size: 16px;
+    margin-top: 20px;
+    color:black;
+    font-weight:600;
+}
+.list ul  {
+    margin: 0;
+    list-style-type: none;
+    padding: 0px;
+}
+.list ul li{
+    font-size: 13px;
+    margin-top: 5px;
+    color: gray;
+}
+
+
+.footer2{
+background-color:#eee;
+height:200px;
+text-align: center;
+margin: 0px 10px;
+}
+.foo{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.foo h1{
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+    padding-top: 20px;
+}
+.foo i{
+margin-top: 20px;
+margin-left: 20px;
+}
+.footer2 h6{
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 30px;
+    color: gray;
+}
+.footer2 p{
+    font-size: 13px;
+    font-weight: 500;
+    color: gray;
+    margin-top: 20px;
+} 

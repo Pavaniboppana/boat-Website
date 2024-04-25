@@ -1,0 +1,386 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+.lock{
+    display: flex;
+    background-color: lightblue;
+    height:550px;
+}
+.lock1{
+    width:600px;
+    height:500px;
+}
+.lock1 img{
+    width:600px;
+    height:500px;
+    margin: 20px 0px;
+    cursor: pointer;
+    transition-property: width;
+    transition-duration: 2s;
+}
+.lock1 img:hover{
+    width:300px;
+}
+.lock2{
+    width:600px;
+    height:500px;
+    padding: 50px 50px;
+}
+.lock2 h1{
+font-size: 50px;
+color: black;
+font-weight: 700;
+}
+.lock2 h1 span{
+    font-size: 46px;
+    color: black;
+    font-weight: 500;
+    }
+.lock2 h3{
+    font-size: 40px;
+    color: black;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-left: 30px;
+    }
+    .lock2 h6{
+        font-size: 26px;
+        color: black;
+        font-weight: 500;
+        margin-left: 30px;
+        }
+        .lock2  h6 span{
+            font-size: 25px;
+            color: black;
+            font-weight: 700;  
+        }
+        .button{
+width: 500px;
+height:50px;
+margin: 30px 30px;
+        }
+
+
+
+
+
+        .hi{
+            display: flex;
+            justify-content: space-between;
+            margin:30px ;
+        }
+        .hi1{
+            float: left;
+        }
+        .hi1 h1{
+font-size: 30px;
+font-weight: 700;
+                   }
+                   .hi2{
+                    float: right;
+                    display: flex;
+                }
+                .hi2 p{
+                   font-size: 15px;
+                   font-weight: 900;
+                   color: blue;
+                   padding-top: 5px;
+                           }
+
+
+                           .same {
+                            display: flex;
+                            flex-wrap: wrap; 
+                            justify-content: space-between;
+                            margin: 10px 30px;
+                        }
+                        
+                        .sameCard {
+                            width: 17rem;
+                            height: 25rem;
+                            border: 2px;
+                            margin-bottom: 20px;
+                            position: relative;
+                        }
+                        
+                        .sameCardImg {
+                            width: 17rem;
+                            height: 15rem;
+                        }
+                        
+                        .sameCardTitle1 {
+                            font-size: 15px;
+                            font-weight: 500;
+                            color: black;
+                        }
+                        
+                        .sameCardTitle2 {
+                            font-size: 13px;
+                            font-weight: 400;
+                            color: black;
+                            white-space: nowrap;
+                            text-overflow: ellipsis;
+                            overflow: hidden;
+                        }
+                        
+                        .sameCardBody {
+                            width: 17rem;
+                            height: 10rem;
+                            background-color: whitesmoke;
+                            border: 1px solid lavender;
+                            border-bottom-left-radius: 5px;
+                            border-bottom-right-radius: 5px;
+                            position: relative;
+                        }
+                        
+                        .But {
+                            width: 170px;
+                            height: 30px;                     
+                            border-radius: 25px;
+                            font-size: 15px; 
+                            font-weight: 700;
+                            color: white;
+                            position: absolute;
+                            top: 2%; 
+                            left: 20%;
+                            transform: translateX(-20%);
+                            background-color: black;
+                            border: none;
+                          }
+                          
+                          .But1 {
+                            width: 170px;
+                            height: 30px;                     
+                            border-radius: 25px;
+                            font-size: 15px; 
+                            font-weight: 700;
+                            color: white;
+                            position: absolute;
+                            top: 50%; 
+                            left: 50%;
+                            transform: translateX(-50%);
+                            border: none;
+                          }
+                          
+                          .But2 {
+                            width: 250px;
+                            height: 40px;
+                            font-size: 13px; 
+                            font-weight: 700;
+                            color:white;
+                            position: absolute;
+                            top: calc(50% - 5px); 
+                            left: calc(40% - 95px);
+                            background-color:#000000;
+                            white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden; 
+                          }
+                          
+                        
+                        .sameCardText {
+                            font-size: 13px;
+                            font-weight: 600;
+                            color: blue;
+                            margin-right: 10px;
+                            margin-top: 60px;
+                            white-space: nowrap;
+                            text-overflow: ellipsis;
+                            overflow: hidden;
+                        }
+                        
+
+
+
+               
+                        .blocks {
+                            display: flex;
+                            justify-content: space-around;
+                            margin: 50px 20px;
+                          }
+                          
+                          .blocksCard {
+                            width: 16rem;
+                            height: 25rem;
+                            border: hidden;
+                            border-radius: 10%;
+                            border-bottom-left-radius: 10%;
+                            border-bottom-right-radius: 10%;
+                          }
+                          
+                          .blocksCard:hover {
+                            cursor: pointer;
+                            box-shadow: 5px 5px 5px rgb(151, 148, 148);
+                            transition: all 0.5s ease infinite;
+                            border-bottom-left-radius: 10%;
+                            border-bottom-right-radius: 10%;
+                            border-radius: 10%;
+                            transform: scale(1.1);
+                          }
+                          
+                          .blocksCardimg {
+                            width: 16rem;
+                            height: 20rem;
+                            border: hidden;
+                            border-radius: 10%;
+                          }
+                          
+                          .blocksCardBody {
+                            width: 16rem;
+                            height: 5rem;
+                            text-align: center;
+                            background-color: lightgray;
+                            border-radius: 10%;
+                          }
+                          
+        
+        
+        
+        .footer{
+            width: 98.5%;
+            height: 400px;
+            display: flex;
+            justify-content: space-between;
+            grid-template-columns: auto auto auto auto;
+            background-color:lavender;
+           padding: 30px;
+        }
+        .footer h1{
+            font-size: 30px;
+            font-weight: 700;
+        }
+        .order{
+        display: flex;
+        }
+        .odd{
+            padding: 0px 30px;
+            display: flex;
+            flex-direction: column;
+        }
+        .odd img{
+        width: 151px;
+        height: 62px;
+        }
+        .odd p{
+            font-size: 40px;
+            font-weight:900;
+            margin-top: 20px; 
+        }
+        .form{
+        display: flex;
+        width: 330px;
+        height: 50px;
+        background-color: white;
+        border: 2px solid white;
+        border-radius: 5px;
+        }
+        .form input{
+            width: 330px;
+            height: 50px;
+            background-color: white;
+            border: 2px solid white;
+            border-radius: 5px;
+            color:black;
+            font-size: 15px;
+            padding-left: 20px;
+            outline: none;
+        }
+        
+        .order ul{
+            list-style-type: none; 
+        }
+        .order ul li{
+            font-size: 13px;
+            margin-top: 10px;
+            color: gray;
+        }
+        .order p{
+            font-size: 13px;
+            font-weight: 700;
+        }
+        .orders{
+        margin-left: 20px;
+        margin-top: 20px;
+        }
+        .orders ul{
+            list-style-type: none; 
+        }
+        .orders ul li{
+            font-size: 13px;
+            margin-top: 10px;
+            color: gray;
+        }
+        
+        
+        .footer1{
+            display: flex;
+            justify-content: space-evenly;
+        flex-wrap: wrap;
+            background-color:#E6E4EB;
+        }
+        .list{
+        margin-right: 50px;
+        }
+        .list ul p{
+            font-size: 20px;
+            margin-top: 10px;
+            color:black;
+            font-weight:bold;
+            margin-right:-30px;
+        }
+        .list ul h6{
+            font-size: 16px;
+            margin-top: 20px;
+            color:black;
+            font-weight:600;
+        }
+        .list ul  {
+            margin: 0;
+            list-style-type: none;
+            padding: 0;
+        }
+        .list ul li{
+            font-size: 13px;
+            margin-top: 5px;
+            color: gray;
+        }
+        
+        
+        .footer2{
+        background-color:#eee;
+        height:200px;
+        text-align: center;
+        margin: 0px 10px;
+        }
+        .foo{
+            display: flex;
+            text-align: center;
+            justify-content: center;
+        }
+        .foo h1{
+            font-size: 20px;
+            font-weight: 700;
+            color: black;
+            padding-top: 20px;
+        }
+        .foo i{
+        margin-top: 20px;
+        margin-left: 20px;
+        }
+        .footer2 h6{
+            font-size: 15px;
+            font-weight: 500;
+            margin-top: 30px;
+            color: gray;
+        }
+        .footer2 p{
+            font-size: 13px;
+            font-weight: 500;
+            color: gray;
+            margin-top: 20px;
+        }

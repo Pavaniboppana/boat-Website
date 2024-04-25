@@ -1,0 +1,494 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+text-decoration: none;
+}
+
+.hi{
+    display: flex;
+    justify-content: space-between;
+    margin:30px ;
+}
+.hi1{
+    float: left;
+}
+.hi1 h1{
+font-size: 30px;
+font-weight: 500;
+           }
+           .hi2{
+            float: right;
+            display: flex;
+        }
+        .hi2 p{
+           font-size: 15px;
+           font-weight: 900;
+           color: blue;
+           padding-top: 5px;
+                   }
+
+                   .hay{
+                    display:flex;
+                    margin:20px 60px;
+                   }
+                   .hay span{
+                    width: 180px;
+                    height:30px;
+                    font-size: 15px;
+                    border-radius:10px;
+                    background-color: lavender;
+                    text-align: center;
+                   }
+                   .hay p{
+                    padding:0px 30px;
+                   }
+
+.flask {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    margin: 10px 30px;
+  }
+  
+  .flaskCard {
+    width: 17rem;
+    height: 25rem;
+    border: 2px;
+    position: relative;
+  }
+  
+  .flaskImg {
+    width: 17rem;
+    height: 15rem;
+  }
+  
+  .Button {
+    width: 120px;
+    height: 30px;                     
+    border-radius: 5px;
+    font-size: 15px; 
+    font-weight: 700;
+    color: white;
+    position: absolute;
+    top: 2%; 
+    left: 2%;
+    transform: translateX(-2%);
+    border: none; 
+  }
+  
+  .Button1 {
+    font-size: 13px;
+    font-weight: 600;
+    width: 150px;
+    height:40px;
+color:white;
+position: absolute;
+top: calc(83% - 35px); 
+left: calc(60% - 95px); 
+  }
+  
+  .Button2 {
+    width: 140px;
+    height: 40px;                     
+    border-radius: 5px;
+    font-size: 15px; 
+    font-weight: 700;
+    color: white;
+    position: absolute;
+    top: 50%; 
+    left: 42%;
+    transform: translate(-50%, -42%);
+    border: none;
+  }
+  
+  
+  
+  .flaskBody {
+    width: 17rem;
+    max-height: 10rem; 
+    background-color: whitesmoke;
+    border: 1px solid lavender;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    position: relative;
+  }
+  .flaskTitle{
+    font-size: 20px;
+                            font-weight: 600;
+                            color: black;
+  }
+  .flaskTitle1{
+    font-size: 20px;
+                            font-weight: 500;
+                            color: black;
+  }
+  .flaskText{
+    font-size: 20px;
+    font-weight: 600;
+    color: blue;
+    margin-right: 10px;
+    margin-top: 60px;
+  }
+
+
+
+
+#oxes{
+    display: flex;
+ margin: 40px;
+ padding-right: 50px;
+}
+.oxe{
+font-family: sans-serif;
+}
+.oxe p{
+font-size: 20px;
+text-align: center;
+}
+.oxe p span{
+font-size: 20px;
+font-weight: 700;
+text-align: center;
+}
+
+
+
+
+h1{
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 30px;
+}
+.block{
+display:flex;
+flex-wrap: wrap;
+justify-content: space-around;
+margin: 30px 30px;
+}
+.blockCard{
+width: 16rem;
+height:20rem;
+border:0;
+position: relative;
+border-bottom-left-radius:10%;
+border-bottom-right-radius:10%;
+}
+.blockCardImg{
+width: 16rem;
+height:13rem;
+border:0;
+}
+
+
+.blockCardBody{
+width:16rem;
+height:7rem;
+}
+
+.blockCardTitle1{
+    font-size: 15px;
+                            font-weight: 500;
+                            color: black;
+    }
+    .blockCardTitle2{
+        font-size: 13px;
+        font-weight: 400;
+        color: black;
+        }
+      
+     .Btn{
+        height: 30px;
+        width: 190px;
+        border-radius: 25px;
+        font-size: 14px; 
+        font-weight: 700;
+        color: #000000;
+        position: absolute;
+        top: calc(73% - 5px); 
+        left: calc(50% - 95px);
+     }
+     .Btn1{
+        font-size: 13px;
+        font-weight: 600;
+        width: 100px;
+        height:40px;
+    color:black;
+    position: absolute;
+    top: calc(85% - 5px); 
+    left: calc(95% - 95px); 
+  
+     }
+      
+    .blockCardText{
+    font-size: 15px;
+    font-weight: 600;
+    color:blue;
+    margin-right: 10px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden; 
+    }
+.blockTitle{
+    font-size: 13px;
+    font-weight: 400;
+    color: black;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.blockCards{
+width: 19rem;
+height:10rem;
+
+}
+
+
+#Part{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 0px 30px 0px;
+}
+.Part1,
+.Part1 img{
+    width: 570px;
+    height: 400px;
+}
+.Part2,
+.Part2 img{
+    width: 570px;
+    height: 400px;
+}
+
+
+
+
+.blocks{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 30px 30px;
+    }
+    .blocksCard{
+    width: 16rem;
+    height:20rem;
+    border:0;
+    position: relative;
+    border-bottom-left-radius:10%;
+    border-bottom-right-radius:10%;
+    }
+    .blocksCardImg{
+    width: 16rem;
+    height:13rem;
+    border:0;
+    }
+    
+    
+    .blocksCardBody{
+    width:16rem;
+    height:5rem;
+    }
+    
+    .blocksCardTitle1{
+        font-size: 15px;
+                                font-weight: 500;
+                                color: black;
+      
+           margin-top: 30px;                 }
+        .blocksCardTitle2{
+            font-size: 13px;
+            font-weight: 400;
+            color: black;
+            margin-top: 10px;   
+            }
+          
+         .Btns{
+            height: 30px;
+            width: 190px;
+            border-radius: 25px;
+            font-size: 14px; 
+            font-weight: 700;
+            color: #000000;
+            position: absolute;
+            top: calc(50% - 5px); 
+            left: calc(50% - 95px);
+         }
+         .Btns1{
+            font-size: 13px;
+            font-weight: 600;
+            width: 150px;
+            height:40px;
+        color:black;
+        position: absolute;
+        top: calc(85% - 5px); 
+        left: calc(58% - 95px); 
+      
+         }
+          
+        .blocksCardText{
+        font-size: 15px;
+        font-weight: 600;
+        color:blue;
+        margin-right: 10px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden; 
+        }
+    .blocksTitle{
+        font-size: 13px;
+        font-weight: 400;
+        color: black;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+    
+  
+
+
+
+.footer{
+    width: 98.5%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    grid-template-columns: auto auto auto auto;
+    background-color:lavender;
+   padding: 30px;
+}
+.footer h1{
+    font-size: 30px;
+    font-weight: 700;
+}
+.order{
+display: flex;
+}
+.odd{
+    padding: 0px 30px;
+    display: flex;
+    flex-direction: column;
+}
+.odd img{
+width: 151px;
+height: 62px;
+}
+.odd p{
+    font-size: 40px;
+    font-weight:900;
+    margin-top: 20px; 
+}
+.form{
+display: flex;
+width: 330px;
+height: 50px;
+background-color: white;
+border: 2px solid white;
+border-radius: 5px;
+}
+.form input{
+    width: 330px;
+    height: 50px;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    color:black;
+    font-size: 15px;
+    padding-left: 20px;
+    outline: none;
+}
+
+.order ul{
+    list-style-type: none; 
+}
+.order ul li{
+    font-size: 13px;
+    margin-top: 10px;
+    color: gray;
+}
+.order p{
+    font-size: 13px;
+    font-weight: 700;
+}
+.orders{
+margin-left: 20px;
+margin-top: 20px;
+}
+.orders ul{
+    list-style-type: none; 
+}
+.orders ul li{
+    font-size: 13px;
+    margin-top: 10px;
+    color: gray;
+}
+
+
+.footer1{
+    display: flex;
+    justify-content: space-evenly;
+flex-wrap: wrap;
+    background-color:#E6E4EB;
+}
+.list{
+margin-right: 50px;
+}
+.list ul p{
+    font-size: 20px;
+    margin-top: 10px;
+    color:black;
+    font-weight:bold;
+    margin-right:-30px;
+}
+.list ul h6{
+    font-size: 16px;
+    margin-top: 20px;
+    color:black;
+    font-weight:600;
+}
+.list ul  {
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+}
+.list ul li{
+    font-size: 13px;
+    margin-top: 5px;
+    color: gray;
+}
+
+
+.footer2{
+background-color:#eee;
+height:200px;
+text-align: center;
+margin: 0px 10px;
+}
+.foo{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.foo h1{
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+    padding-top: 20px;
+}
+.foo i{
+margin-top: 20px;
+margin-left: 20px;
+}
+.footer2 h6{
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 30px;
+    color: gray;
+}
+.footer2 p{
+    font-size: 13px;
+    font-weight: 500;
+    color: gray;
+    margin-top: 20px;
+}

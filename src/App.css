@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:sans-serif;
+  text-decoration: none;
+}
+.high{
+  height:30px;
+  color: black;
+  text-align: center;
+  background-color: aquamarine;
+}
+.nav-bar{
+  height:100px;
+  background-color: lightskyblue;
+}
+.nav-bar ul{
+  display: flex;
+  justify-content: space-evenly;
+}
+.nav-bar ul li{
+  list-style: none;
+  margin-top: 30px;
+  font-size: 20px;
+  color: black;
+}
