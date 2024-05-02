@@ -1,13 +1,21 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import './Gift.css'
+import AOS from "aos";
+import "aos/dist/aos.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faCircleChevronRight, faStar, faCheckCircle } from '@fortawesome/free-solid-svg-icons';
- import { faCircleArrowRight } from '@fortawesome/free-solid-svg-icons';
+import {faCircleChevronRight, faStar, faCheckCircle,faCircleArrowRight  } from '@fortawesome/free-solid-svg-icons';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
 
 const Gift = () => {
+  useEffect(() => {
+    AOS.init({
+      disable: "phone",
+      duration: 700,
+      easing: "ease-out-cubic",
+    });
+  }, []);
   return (
     <>
 
@@ -35,25 +43,25 @@ const Gift = () => {
         <div className='flask'>
           <Card  className='flaskCard'>
             <Card.Img variant="top"  className='flaskImg' src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/r255pro_55d805bc-f2e1-4861-9533-8eee57081305.jpg?v=1682573437" />
-            <Button className="Button" variant="dark">Bestseller</Button>
-            <Button className="Button1" variant="warning">40 Hours Playback</Button>
+            <Button className="Buts" variant="dark">Bestseller</Button>
+            <Button className="Buts1" variant="warning">40 Hours Playback</Button>
             <Card.Body className='flaskBody'>
               <Card.Title className='flaskTitle'><b>Rockerz 255 Pro+</b></Card.Title>
               <Card.Title className='flaskTitle1'><b>₹1,299</b> <s style={{ textDecoration: "line-through"  }}>₹3,990</s> <b style={{ color: "rgb(19, 185, 132)",fontSize: "15px",fontWeight:"600"}}>67% off</b></Card.Title>
               <Card.Text className='flaskText'> <FontAwesomeIcon style={{color:"gold",fontSize:"15px"}} icon={faStar} />4.8  |436<FontAwesomeIcon icon={faCheckCircle} style={{color:"limegreen",fontSize:"15px"}}/></Card.Text>
-              <Button variant="dark" className="Button2">Add To Cart</Button>
+              <Button variant="dark" className="Buts2">Add To Cart</Button>
             </Card.Body>
           </Card>
 
 
           <Card className='flaskCard'>
             <Card.Img variant="top" className='flaskImg' src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Rockerz_245v2.jpg?v=1702027042" />
-            <Button className="Button1" variant="warning">8 Hours Playback</Button>
+            <Button className="Buts1" variant="warning">8 Hours Playback</Button>
             <Card.Body className='flaskBody'>
               <Card.Title className='flaskTitle'><b>Rockerz 245 V2</b></Card.Title>
               <Card.Title className='flaskTitle1'><b>₹1,099</b> <s style={{ textDecoration: "line-through"  }}>₹2,990</s> <b style={{ color: "rgb(19, 185, 132)",fontSize: "15px",fontWeight:"600"}}>63% off</b></Card.Title>
               <Card.Text className='flaskText'> <FontAwesomeIcon icon={faStar} style={{color:"gold",fontSize:"15px"}} />4.8  |206<FontAwesomeIcon icon={faCheckCircle} style={{color:"limegreen",fontSize:"15px"}}/></Card.Text>
-               <Button variant="dark" className="Button2">Add To Cart</Button>
+               <Button variant="dark" className="Buts2">Add To Cart</Button>
             </Card.Body>
           </Card>
 
@@ -61,24 +69,24 @@ const Gift = () => {
 
           <Card className='flaskCard'>
             <Card.Img variant="top" className='flaskImg' src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/boAt-Airdopes-Atom-83.jpg?v=1682576552" />
-            <Button className="Button1" variant="warning">50 Hours Playback</Button>
+            <Button className="Buts1" variant="warning">50 Hours Playback</Button>
             <Card.Body className='flaskBody'>
               <Card.Title className='flaskTitle'><b>Airdopes Atom 83</b></Card.Title>
               <Card.Title className='flaskTitle1'><b>₹1,499</b> <s style={{ textDecoration: "line-through"  }}>₹3,490</s> <b style={{ color: "rgb(19, 185, 132)",fontSize: "15px",fontWeight:"600"}}>57% off</b></Card.Title>
               <Card.Text className='flaskText'> <FontAwesomeIcon icon={faStar} style={{color:"gold",fontSize:"15px"}} />4.7  |42<FontAwesomeIcon icon={faCheckCircle} style={{color:"limegreen",fontSize:"15px"}}/></Card.Text>
-              <Button variant="dark" className="Button2">Add To Cart</Button>
+              <Button variant="dark" className="Buts2">Add To Cart</Button>
             </Card.Body>
           </Card>
 
 
           <Card  className='flaskCard'>
             <Card.Img variant="top" className='flaskImg' src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/rockerz_333_pro.jpg?v=1692340413" />
-            <Button className="Button1" variant="warning">60 Hours Playback</Button>
+            <Button className="Buts1" variant="warning">60 Hours Playback</Button>
             <Card.Body className='flaskBody'>
               <Card.Title className='flaskTitle'><b>Rockerz 333 Pro</b></Card.Title>
              <Card.Title className='flaskTitle1'><b>₹1,799</b> <s style={{ textDecoration: "line-through"  }}>₹2,990</s> <b style={{ color: "rgb(19, 185, 132)",fontSize: "15px",fontWeight:"600"}}>40% off</b></Card.Title>
              <Card.Text className='flaskText'> <FontAwesomeIcon icon={faStar} style={{color:"gold",fontSize:"15px"}} />4.9  |167<FontAwesomeIcon icon={faCheckCircle} style={{color:"limegreen",fontSize:"15px"}}/></Card.Text>
-              <Button variant="dark" className="Button2">Add To Cart</Button>
+              <Button variant="dark" className="Buts2">Add To Cart</Button>
             </Card.Body>
           </Card>
         </div>
@@ -88,10 +96,10 @@ const Gift = () => {
 
 
       <div id="Part">
-        <div className="Part1">
+        <div className="Part1" data-aos="fade-up">
           <img src="https://www.boat-lifestyle.com/cdn/shop/files/gift2_1400x.jpg?v=1692769727" alt="" />
         </div>
-        <div className="Part2">
+        <div className="Part2"  data-aos="fade-down">
           <img src="https://www.boat-lifestyle.com/cdn/shop/files/gift3_1400x.jpg?v=1692769727" alt="" />
         </div>
       </div>
@@ -249,10 +257,10 @@ const Gift = () => {
 
 
       <div id="Part">
-        <div className="Part1">
+        <div className="Part1" data-aos="fade-right">
           <img src="https://www.boat-lifestyle.com/cdn/shop/files/gift-4_1400x.jpg?v=1692770282" alt="" />
         </div>
-        <div className="Part2">
+        <div className="Part2" data-aos="fade-left">
           <img src="https://www.boat-lifestyle.com/cdn/shop/files/gift-5_1400x.jpg?v=1692770283" alt="" />
         </div>
       </div>
