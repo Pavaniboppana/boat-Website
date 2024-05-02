@@ -6,7 +6,7 @@ function Loginform() {
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");dfghjkl;sdfghj
-    const [errors, setErrors] = useState({
+    const [errors, setErrors] = useState({dfrghj
         name: "",
         email: "",
         password: ""
