@@ -78,26 +78,26 @@ const Home = () => {
         <div className='flask'>
           <Card className='flaskCard'>
             <Card.Img variant="top" className='flaskImg' src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Nirvana_Ion.jpg?v=1697621745/100px180" />
-            <Button className="Button" variant="dark">Engraving Available</Button>
-            <Button className="Button1" variant="warning">120 Hours Playback</Button>
+            <Button className="Butt" variant="dark">Engraving Available</Button>
+            <Button className="Butt1" variant="warning">120 Hours Playback</Button>
             <Card.Body className='flaskBody'>
               <Card.Title className='flaskTitle'><b>Nirvana Ion</b></Card.Title>
               <Card.Title className='flaskTitle1'><b>₹2,299</b> <s style={{ textDecoration: "line-through" }}>₹7,990</s> <b style={{ color: "rgb(19, 185, 132)", fontSize: "15px", fontWeight: "600" }}>71% off</b></Card.Title>
               <Card.Text className='flaskText'> <FontAwesomeIcon style={{ color: "gold", fontSize: "15px" }} icon={faStar} />5.0  |73<FontAwesomeIcon icon={faCheckCircle} style={{ color: "limegreen", fontSize: "15px" }} /></Card.Text>
-              <Button variant="dark" className="Button2">Add To Cart</Button>
+              <Button variant="dark" className="Butt2">Add To Cart</Button>
             </Card.Body>
           </Card>
 
 
           <Card className='flaskCard'>
             <Card.Img variant="top" className='flaskImg' src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/131_f04f74fd-45d4-4614-85cf-6ccf69c4cf90.jpg?v=1691395049/100px180" />
-            <Button variant="dark" className="Button">Engraving Available </Button>
-            <Button variant="warning" className="Button1">60 Hours Playback</Button>
+            <Button variant="dark" className="Butt">Engraving Available </Button>
+            <Button variant="warning" className="Butt1">60 Hours Playback</Button>
             <Card.Body className='flaskBody'>
               <Card.Title className='flaskTitle'><b>Airdopes 131</b></Card.Title>
               <Card.Title className='flaskTitle1'><b>₹899</b> <s style={{ textDecoration: "line-through" }}>₹2,990</s> <b style={{ color: "rgb(19, 185, 132)", fontSize: "15px", fontWeight: "600" }}>70% off</b></Card.Title>
               <Card.Text className='flaskText'> <FontAwesomeIcon style={{ color: "gold", fontSize: "15px" }} icon={faStar} />4.8 |1359<FontAwesomeIcon icon={faCheckCircle} style={{ color: "limegreen", fontSize: "15px" }} /></Card.Text>
-              <Button variant="dark" className="Button2">Add To Cart</Button>
+              <Button variant="dark" className="Butt2">Add To Cart</Button>
             </Card.Body>
           </Card>
 
@@ -105,13 +105,13 @@ const Home = () => {
 
           <Card className='flaskCard'>
             <Card.Img variant="top" className='flaskImg' src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/AD_161.jpg?v=1686297917/100px180" />
-            <Button variant="dark" className="Button">Engraving Available </Button>
-            <Button variant="warning" className="Button1">40 Hours Playback</Button>
+            <Button variant="dark" className="Butt">Engraving Available </Button>
+            <Button variant="warning" className="Butt1">40 Hours Playback</Button>
             <Card.Body className='flaskBody'>
               <Card.Title className='flaskTitle'><b>Airdopes 161</b></Card.Title>
               <Card.Title className='flaskTitle1'><b>₹999</b> <s style={{ textDecoration: "line-through" }}>₹2,490</s> <b style={{ color: "rgb(19, 185, 132)", fontSize: "15px", fontWeight: "600" }}>60% off</b></Card.Title>
               <Card.Text className='flaskText'> <FontAwesomeIcon style={{ color: "gold", fontSize: "15px" }} icon={faStar} />4.9 |169<FontAwesomeIcon icon={faCheckCircle} style={{ color: "limegreen", fontSize: "15px" }} /></Card.Text>
-              <Button variant="dark" className="Button2">Add To Cart</Button>
+              <Button variant="dark" className="Butt2">Add To Cart</Button>
             </Card.Body>
           </Card>
 
@@ -119,13 +119,13 @@ const Home = () => {
 
           <Card className='flaskCard'>
             <Card.Img variant="top" className='flaskImg' src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/boAt-Rockerz-255-Max.jpg?v=1682579854/100px180" />
-            <Button className="Button" variant="dark">₹200 OFF ON BIG200</Button>
-            <Button className="Button1" variant="warning">60 Hours Playback</Button>
+            <Button className="Butt" variant="dark">₹200 OFF ON BIG200</Button>
+            <Button className="Butt1" variant="warning">60 Hours Playback</Button>
             <Card.Body className='flaskBody'>
               <Card.Title className='flaskTitle'><b>Rockerz 255 Pro</b></Card.Title>
               <Card.Title className='flaskTitle1'><b>₹1,299</b> <s style={{ textDecoration: "line-through" }}>₹3,999</s> <b style={{ color: "rgb(19, 185, 132)", fontSize: "15px", fontWeight: "600" }}>68% off</b></Card.Title>
               <Card.Text className='flaskText'> <FontAwesomeIcon style={{ color: "gold", fontSize: "15px" }} icon={faStar} />4.9  |17<FontAwesomeIcon icon={faCheckCircle} style={{ color: "limegreen", fontSize: "15px" }} /></Card.Text>
-              <Button variant="dark" className="Button2">Add To Cart</Button>
+              <Button variant="dark" className="Butt2">Add To Cart</Button>
             </Card.Body>
           </Card>
 
@@ -318,36 +318,36 @@ const Home = () => {
 
 
         <h1 style={{ fontSize: "30px" }}>Shop by <b>Lifestyle</b></h1>
-        <div className='block'>
-          <Card className='blockCard'>
-            <Card.Img variant="top" className='blockCardimg' src="https://www.boat-lifestyle.com/cdn/shop/files/Audiophile_5.png?v=1696328658" />
-            <Card.Body className='blockCardBody'>
+        <div className='blockes'>
+          <Card className='blockCardes'>
+            <Card.Img variant="top" className='blockCardimges' src="https://www.boat-lifestyle.com/cdn/shop/files/Audiophile_5.png?v=1696328658" />
+            <Card.Body className='blockCardBodyes'>
               <Card.Title><b>Neckbands</b></Card.Title>
               <p style={{ color: "blue" }}>View All<FontAwesomeIcon style={{ paddingLeft: "10px" }} icon={faCircleArrowRight} /></p>
             </Card.Body>
           </Card>
 
 
-          <Card className='blockCard'>
-            <Card.Img variant="top" className='blockCardimg' src="https://www.boat-lifestyle.com/cdn/shop/files/For_Parties_4x_8df06f56-d656-4af1-8b94-3921c6810c6c.png?v=1696906661" />
-            <Card.Body className='blockCardBody'>
+          <Card className='blockCardes'>
+            <Card.Img variant="top" className='blockCardimges' src="https://www.boat-lifestyle.com/cdn/shop/files/For_Parties_4x_8df06f56-d656-4af1-8b94-3921c6810c6c.png?v=1696906661" />
+            <Card.Body className='blockCardBodyes'>
               <Card.Title><b>Speakers</b></Card.Title>
               <p style={{ color: "blue" }}>View All<FontAwesomeIcon style={{ paddingLeft: "10px" }} icon={faCircleArrowRight} /></p>
             </Card.Body>
           </Card>
 
 
-          <Card className='blockCard'>
-            <Card.Img variant="top" className='blockCardimg' src="https://www.boat-lifestyle.com/cdn/shop/files/Workaholic_2.png?v=1685083745" />
-            <Card.Body className='blockCardBody'>
+          <Card className='blockCardes'>
+            <Card.Img variant="top" className='blockCardimges' src="https://www.boat-lifestyle.com/cdn/shop/files/Workaholic_2.png?v=1685083745" />
+            <Card.Body className='blockCardBodyes'>
               <Card.Title><b>Smartwatches</b></Card.Title>
               <p style={{ color: "blue" }}>View All<FontAwesomeIcon style={{ paddingLeft: "10px" }} icon={faCircleArrowRight} /></p>
             </Card.Body>
           </Card>
 
-          <Card className='blockCard'>
+          <Card className='blockCardes'>
             <Card.Img variant="top" className='blockCardimg' src="https://www.boat-lifestyle.com/cdn/shop/files/Fitness_1.png?v=1696906228" />
-            <Card.Body className='blockCardBody'>
+            <Card.Body className='blockCardBodyes'>
               <Card.Title><b>Headphones</b></Card.Title>
               <p style={{ color: "blue" }}>View All<FontAwesomeIcon style={{ paddingLeft: "10px" }} icon={faCircleArrowRight} /></p>
             </Card.Body>
