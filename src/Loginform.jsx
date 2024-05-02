@@ -5,7 +5,7 @@ import Form from 'react-bootstrap/Form';
 function Loginform() {
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
-    const [password, setPassword] = useState("");dfghjkl;
+    const [password, setPassword] = useState("");dfghjkl;sdfghj
     const [errors, setErrors] = useState({
         name: "",
         email: "",
