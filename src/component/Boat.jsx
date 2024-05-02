@@ -3,8 +3,7 @@ import './Boat.css'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCircleChevronRight } from '@fortawesome/free-solid-svg-icons';
-
+import {faCircleChevronRight, faStar, faCheckCircle } from '@fortawesome/free-solid-svg-icons';
 
 const Boat = () => {
   let data = [{
@@ -162,30 +161,29 @@ const Boat = () => {
     <>
 
       <h1>Special Range — Personalised Products</h1>
-
+      <div id='ox' className="oxGrid">
       {
         data.map(
           (value) => {
             return (
               <>
 
-                  <div className='ox'>
-                    <Card className='oxCard'>
-                      <Card.Img variant="top" className='oxImg' src={value.img} />
-                      <Button variant="warning" className='Button1'>{value.button1}</Button>
-                      <Card.Body className='oxCardBody'>
-                        <Card.Title className='oxTitle'>{value.title1}</Card.Title>
-                        <Card.Title className='oxTitle1'><b></b><u></u><s></s>{value.title2}</Card.Title>
-                        <Card.Text className='oxText'>{value.text}</Card.Text>
-                        <div style={{ display: "flex" }}>
-                          <span>{value.span1}</span>
-                          <span>{value.span2}</span>
-                        </div>
-                        <span style={{ display: "inline" }}>{value.span3}</span>
-                        <Button variant="dark" className='Button2'>{value.button2}</Button>
-                      </Card.Body>
-                    </Card>
-                </div>
+                  <Card className='oxCard'>
+                    <Card.Img variant="top" className='oxImg' src={value.img} />
+                    <Button variant="warning" className='Button1'>{value.button1}</Button>
+                    <Card.Body className='oxCardBody'>
+<Card.Title className='oxTitle'>{value.title1}</Card.Title>
+                      <Card.Title className='oxTitle1'><b></b><u></u><s></s>{value.title2}</Card.Title>
+                      <div style={{display:"flex"}}><FontAwesomeIcon icon={faStar} style={{color:"gold",fontSize:"16px",marginTop:"3px"}}/><Card.Text className='oxText'>{value.text}</Card.Text><FontAwesomeIcon icon={faCheckCircle} style={{color:"limegreen",fontSize:"16px",marginTop:"3px"}}/></div>
+                      <div style={{ display: "flex" }}>
+                        <span>{value.span1}</span>
+                        <span>{value.span2}</span>
+                      </div>
+                      <span style={{ display: "inline" }}>{value.span3}</span>
+                      <Button variant="dark" className='Button2'>{value.button2}</Button>
+                    </Card.Body>
+                  </Card>
+               
               </>
             )
           }
@@ -194,8 +192,7 @@ const Boat = () => {
       }
 
 
-
-
+</div>
 
 
 
