@@ -6,6 +6,7 @@ import Home from './component/Home'
 import Gift from './component/Gift'
 import Corporate from './component/Corporate'
 import Boat from './component/Boat'
+import Login from './component/Login';
 import Navigate from './component/Navigate'
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Route path='/boat' element={<Boat/>}></Route>
       <Route path='/gift' element={<Gift/>}></Route>
       <Route path='/corporate' element={<Corporate/>}></Route>
+      <Route path='/login' element={<Login/>}></Route>
     </Routes> 
  </>
   );
