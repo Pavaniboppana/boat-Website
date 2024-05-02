@@ -171,47 +171,8 @@ margin-top:160px;
     height: 15rem;
   }
   
- 
-  /* .Button {                    
-    width: 350px;
-    height: 30px;
-    border-radius: 8px;
-    font-size: 10px; 
-    font-weight: 700;
-    color:white;
-    position: absolute;
-    top: 15px; 
-    left: calc(32% - 5px); 
-}
-
-
-.Button1 {
-    height: 30px;
-    width: 190px;
-    border-radius: 25px;
-    font-size: 14px; 
-    font-weight: 700;
-    color: white;
-    position: absolute;
-    top: calc(50% - 5px); 
-    left: calc(50% - 95px); 
-}
-
-.Button2 {
-    height: 30px;
-    width: 190px;
-    border-radius: 25px;
-    font-size: 14px; 
-    font-weight: 700;
-    color: white;
-position: absolute;
-top: 50%;
-left: 70%;
-transform: translate(-70%, -50%);
-
-} */
   
-.Button{
+.Butt{
     width: 250px;
     height: 30px;                     
     border-radius: 25px;
@@ -226,30 +187,31 @@ transform: translate(-70%, -50%);
     border: none;
   }
   
-  .Button1 {
-    width: 170px;
-    height: 30px;                     
-    border-radius: 25px;
+  .Butt1 {
+    font-size: 13px;
+    font-weight: 600;
+    width: 150px;
+    height: 40px;
+    color: white;
+    position: absolute;
+    top: 58%;
+    left: 40%;
+    border-radius: 10%;
+    transform: translate(-40%, -58%);
+  }
+  
+  .Butt2{
+    width: 140px;
+    height: 40px;                     
+    border-radius: 5px;
     font-size: 15px; 
     font-weight: 700;
     color: white;
     position: absolute;
-    top: 100%; 
-    left: 90%;
-    transform: translateX(-20%);
+    top: 70%; 
+    left: 10%;
+    transform: translate(-10%, -70%);
     border: none;
-  }
-  
-  .Button2{
-    width: 250px;
-    height: 40px;
-    font-size: 13px; 
-    font-weight: 700;
-    color:white;
-    position: absolute;
-    top: calc(50% - 5px); 
-    left: calc(40% - 95px);
-    background-color:#000000;
     white-space: nowrap;
 text-overflow: ellipsis;
 overflow: hidden; 
@@ -428,11 +390,53 @@ text-align: center;
 }
 
 
+
+.blockes {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 20px;
+  }
+  
+  .blockCardes {
+    width: 16rem;
+    height: 25rem;
+    border: hidden;
+    border-radius: 10%;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+  }
+  
+  .blockCardes:hover {
+    cursor: pointer;
+    box-shadow: 5px 5px 5px rgb(151, 148, 148);
+    transition: all 0.5s ease infinite;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-radius: 10%;
+    transform: scale(1.1);
+  }
+  
+  .blockCardimges {
+    width: 16rem;
+    height: 20rem;
+    border: hidden;
+    border-radius: 10%;
+  }
+  
+  .blockCardBodyes {
+    width: 16rem;
+    height: 5rem;
+    text-align: center;
+    background-color: lightgray;
+    border-radius: 10%;
+  }
+  
+
+
+
+
 h1{
     font-size: 30px;
-}
-.block{
-display:flex;
 }
 .block{
     display:flex;
@@ -449,8 +453,7 @@ display:flex;
 }
 .blockCard{
     width: 17rem;
-    height:20rem;
-    border:hidden;
+    height:25rem;
     border-radius: 10%;
     border-bottom-left-radius:10%;
     border-bottom-right-radius:10%;
@@ -472,7 +475,7 @@ display:flex;
 }
 .blockCardBody{
     width:17rem;
-    height:5rem;
+    height:10rem;
     text-align:center;
     background-color:lightgray;
     border-radius: 10px;
@@ -503,7 +506,7 @@ left: calc(60% - 95px);
   }
   
   .Btn2 {
-    width: 150px;
+    width: 110px;
     height: 40px;                     
     border-radius: 5px;
     font-size: 15px; 
@@ -511,11 +514,27 @@ left: calc(60% - 95px);
     color: white;
     position: absolute;
     top: 60%; 
-    left: 62%;
-    transform: translate(-62%, -60%);
+    left: 50%;
+    transform: translate(-50%, -60%);
     border: none;
   }
-  
+  .blockCardTitle1{
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    margin-top: 10px;
+  }
+  .blockCardTitle1{
+    font-size: 20px;
+                            font-weight: 500;
+                            color: black;
+  }
+  .blockCardText{
+    font-size: 20px;
+    font-weight: 600;
+    color: blue;
+    margin-right: 10px;
+  }
 
 
 
