@@ -64,7 +64,7 @@ font-weight: 500;
     height: 15rem;
   }
   
-  .Button {
+  .Buts {
     width: 120px;
     height: 30px;                     
     border-radius: 5px;
@@ -78,18 +78,22 @@ font-weight: 500;
     border: none; 
   }
   
-  .Button1 {
-    font-size: 13px;
-    font-weight: 600;
-    width: 150px;
-    height:40px;
-color:white;
-position: absolute;
-top: calc(83% - 35px); 
-left: calc(60% - 95px); 
-  }
+  .Buts1 {
+        font-size: 13px;
+        font-weight: 600;
+        width: 150px;
+        height: 40px;
+        color: white;
+        position: absolute;
+        top: 58%;
+        left: 40%;
+        border-radius: 10%;
+        transform: translate(-40%, -58%);
+      }
+       
+
   
-  .Button2 {
+  .Buts2 {
     width: 140px;
     height: 40px;                     
     border-radius: 5px;
@@ -97,9 +101,9 @@ left: calc(60% - 95px);
     font-weight: 700;
     color: white;
     position: absolute;
-    top: 50%; 
-    left: 42%;
-    transform: translate(-50%, -42%);
+    top: 70%; 
+    left: 10%;
+    transform: translate(-10%, -70%);
     border: none;
   }
   
@@ -164,26 +168,26 @@ h1{
 .block{
 display:flex;
 flex-wrap: wrap;
-justify-content: space-around;
+justify-content: space-between;
 margin: 30px 30px;
 }
 .blockCard{
-width: 16rem;
-height:20rem;
+width: 15rem;
+height:17rem;
 border:0;
 position: relative;
 border-bottom-left-radius:10%;
 border-bottom-right-radius:10%;
 }
 .blockCardImg{
-width: 16rem;
-height:13rem;
+width: 15rem;
+height:10rem;
 border:0;
 }
 
 
 .blockCardBody{
-width:16rem;
+width:15rem;
 height:7rem;
 }
 
